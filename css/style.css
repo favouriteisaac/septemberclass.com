@@ -1,0 +1,27 @@
+/* div{
+    background-color: blue;
+} */
+
+/* CLASS SELECTOR */
+
+.first{
+    background-color: blue;
+}
+
+.second{
+    background-color: green;
+}
+
+/* id selector */
+
+#container{
+    background-color:grey
+}
+
+/* child selector */
+
+.first h1{
+    color: yellow;
+}
+.first p{color: grey
+}

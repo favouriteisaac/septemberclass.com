@@ -1,0 +1,50 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+.shop-content{
+    display: flex;
+    gap: 20px;
+}
+.shop-card img{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+.shop{
+    width: 80%;
+    margin:auto;
+}
+.shop-card{
+    position: relative;
+    display: flex;
+    
+}
+.shop-title{
+    text-align: center;
+}
+.card-content{
+    position: absolute;
+    color: white;
+    text-align: center;
+    background: linear-gradient(rgba (0 0 0 0.6));
+    width: 100%;
+    bottom: 0;
+    left: 0;
+padding: 15px;
+height: auto;
+
+}
+
+.card-content a{
+
+    background-color: lightblue;
+    padding: 3px 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
